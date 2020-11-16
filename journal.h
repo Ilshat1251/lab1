@@ -10,9 +10,7 @@ class Journal {
 public:
     Journal() = default;
     Journal(size_t size);
-//   Journal(const Journal &oldJournal);
-//    Journal(Journal &&oldJournal);
-  //    Journal(const Journal& other);
+
 
 
     void AddData(const JournalData &data);
