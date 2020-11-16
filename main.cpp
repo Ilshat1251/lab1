@@ -14,8 +14,6 @@ void TestJournal() {
     assert(J.Size() == 2);
     J.DeleteData(1);
     J.ClearAll();
-    //Journal J2(J);
-   // assert(J2 == J);
     cout << "OK" << endl;
 }
 
