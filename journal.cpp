@@ -38,7 +38,7 @@ void Journal::CheckJournal() const {
         influence_total += i.GetCoffeeAmount();
         if (influence_total < 0) {
             cout << i.GetFullName() << ' ' <<
-            "Использовал больше кофе, чем было" << endl;
+            "Using more coffe, then it is" << endl;
             return;
         }
     }
