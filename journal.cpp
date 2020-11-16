@@ -91,10 +91,7 @@ void Journal::SaveToFile(const string &filename) {
 }
 
 
-/*bool Journal::operator==(const Journal &J) {
-    return false;
-}
-*/
+
 
 
 ostream&operator<<(ostream &os, const Journal&j) {
